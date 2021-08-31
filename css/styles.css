@@ -1,0 +1,322 @@
+/*HTML Elements*/
+h2 {
+  color: black;
+}
+
+/*Navbar Elements*/
+.navbar {
+  padding: 10px;
+  background-color: #EEEBDD;
+  color: black;
+}
+
+.logo {
+  border-radius: 50%;
+  width: 160px;
+  height: 90px;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 10px;
+  font-size: 24px;
+  color: black;
+}
+
+.nav-link:hover {
+  font-size: 35px;
+}
+
+.navbar-light .navbar-toggler {
+  color: #810000;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+}
+
+.navbar-light .navbar-nav .nav-link :hover {
+  color: #810000;
+}
+
+/*One page*/
+#one {
+  background-color: #CE1212;
+  padding: 20px;
+  height: 750px;
+}
+
+/*For bounce */
+.desc1 {
+  padding-left: 50px;
+  padding-top: 20px;
+  color: black;
+  font-size: 30px;
+}
+
+.desc1:hover {
+  color: white;
+  padding-top: 20px;
+  background-color: none;
+}
+
+.eyebounce {
+  font-size: 18px;
+}
+
+.eyebounce:hover {
+  font-size: 50px;
+  display: inline-block;
+}
+
+/* Spinning Globe*/
+@keyframes spin {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotateY(0deg);
+  }
+
+  to {
+    -webkit-transform: rotateY(360deg);
+  }
+}
+
+.imageSpin {
+  height: 300px;
+  width: 300px;
+  float: middle;
+  animation-name: spin;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  -webkit-animation-name: spin;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 5s;
+  display: inline-block;
+}
+
+/*Row Div for page 1*/
+.row {
+  padding: 5px;
+  object-fit: contain;
+  height: 500px;
+}
+
+/*  Marquee tag  */
+.love1 {
+  color: white;
+  font-style: italic;
+  font-size: 15px;
+}
+
+/* Form Calc*/
+form {
+  height: 400px;
+  background-color: white;
+}
+
+.calculator-wrapper {
+  padding: 20px;
+  text-transform: uppercase;
+  object-fit: contain;
+  height: 300px;
+}
+
+.person-details {
+  width: 60%;
+  height: 300px;
+}
+
+.f1, .f2 {
+  border: 3px solid #810000;
+  height: 300px;
+}
+
+.text-black-60 {
+  color: rgba(0, 0, 0, .6);
+  float: right;
+}
+
+.t-xs {
+  font-size: .75rem;
+}
+
+.tr {
+  text-align: right !important;
+}
+
+.i {
+  font-style: italic;
+}
+
+/*Calculate Love Button*/
+.btn1 {
+  background-color: pink;
+  position: absolute;
+  right: 40px;
+  background-image: -webkit-linear-gradient(top, white, white);
+  background-image: -moz-linear-gradient(top, white, white);
+  background-image: -ms-linear-gradient(top, white, white);
+  background-image: -o-linear-gradient(top, white, white);
+  background-image: linear-gradient(to bottom, white, white);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Georgia;
+  color: black;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+  border: solid black 2px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.btn1:hover {
+  background: #810000;
+  background-image: -webkit-linear-gradient(top, #810000, pink);
+  background-image: -moz-linear-gradient(top, #810000, pink);
+  background-image: -ms-linear-gradient(top, #810000, pink);
+  background-image: -o-linear-gradient(top, #810000, pink);
+  background-image: linear-gradient(to bottom, #810000, pink);
+  text-decoration: none;
+}
+
+/*Score Div*/
+.overlaydiv {
+  height: 60px;
+  background-color: #810000;
+  text-align: center;
+  padding: 5px;
+}
+
+#demo {
+  color: #fc2e5a;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Josefin Sans';
+}
+
+/*Second page*/
+#two {
+  background-color: pink;
+  height: 400px;
+  padding: 20px;
+}
+
+#twoline1 {
+  font-family: 'Cedarville Cursive', cursive;
+  font-weight: normal;
+  font-size: 3em;
+}
+
+/*Heart Shape Design*/
+.heart {
+  position: relative;
+  width: 100px;
+  height: 90px;
+  float: left;
+}
+
+.heart:before,
+.heart:after {
+  position: absolute;
+  content: "";
+  left: 50px;
+  top: 0;
+  width: 50px;
+  height: 80px;
+  background: #fc2e5a;
+  -moz-border-radius: 50px 50px 0 0;
+  border-radius: 50px 50px 0 0;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+}
+
+.heart:after {
+  left: 0;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  -o-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+}
+
+/* Footer */
+#footer {
+  height: 100px;
+  padding-top: 30px;
+  text-align: center;
+  font-size: inherit;
+  background-color: #1B1717;
+}
+
+.social-icon {
+  color: white;
+  margin: 10px 10px;
+}
+
+.social-icon:hover {
+  color: #fc2e5a;
+  font-size: 30px;
+}
+
+.copyright {
+  color: #EEEBDD;
+  font-size: 1rem;
+  padding: 10px 0;
+  font-family: Montserrat;
+}
+
+/* Media Queries */
+@media(max-width:1200px) {
+  #two {
+    height: 600px;
+  }
+
+  #one {
+    height: 800px;
+  }
+}
+
+@media(max-width:780px) {
+  #two {
+    height: 750px;
+  }
+
+  #one {
+    height: 1000px;
+  }
+
+  .desc1 {
+    padding-left: 5px;
+    padding-top: 20px;
+    font-size: 18px;
+  }
+
+  #twoline1 {
+    font-size: 30px;
+  }
+}
